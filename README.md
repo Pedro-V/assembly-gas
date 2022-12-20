@@ -15,4 +15,7 @@ ld example.o -o example.out
 ## O que cada arquivo faz
 
 - `arithmetic.s` - Não faz nada. Usa as instruções de aritmetica e de movimentação de valores para gerar um exit code, usando uma chamada do sistema operacional pra isso. Pra verificar o exit code, faça `echo $?` após rodar o executável.
-- `branching.s`
+- `branching.s` - Explora os jumps que permitem o controle de fluxo
+- `better_pow.s` - Uma versão mais curta e direta da potenciação do branching
+- `how_long.s` - Apenas realiza jumps até que o programa dure 1s inteiro. Pode variar bastante
+- `even_or_odd.s` - Programa que calcula se um número positivo é ímpar ou par sem usar divisão
