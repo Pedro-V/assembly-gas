@@ -1,0 +1,2 @@
+# Ignora os arquivos .o e .out
+*.o*
