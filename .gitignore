@@ -1,2 +1,4 @@
 # Ignora os arquivos .o e .out
 *.o*
+# Ignore arquivos de configuração do editor
+.vscode/*
